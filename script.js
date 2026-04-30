@@ -1,4 +1,4 @@
-let images = ["img1.jpg", "img2.jpg", "img3.jpg"];
+let images = ["Gemini_Generated_Image_p8q0nop8q0nop8q0.PNG", "LIV.PNG", "HAEUN.PNG", "MINA.PNG", "JIYU>PNG"];
 let index = 0;
 
 function showImage() {
