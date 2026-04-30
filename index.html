@@ -6,33 +6,33 @@
 </head>
 <body>
 
-<header>
-    <h1>NEON LABS</h1>
-    <p>Creating the future of music</p>
-</header>
+<div class="container">
 
-<section class="artists">
-    <h2>Our Artists</h2>
+    <!-- Image Section -->
+    <div class="image-box">
+        <button class="arrow left" onclick="prevImage()">❮</button>
 
-    <div class="group">
-        <h3>NEON BYTE</h3>
-        <p>AI-powered K-pop girl group</p>
+        <img id="mainImage" src="img1.jpg">
+
+        <button class="arrow right" onclick="nextImage()">❯</button>
+
+        <div class="heart" onclick="likeImage()">♡</div>
     </div>
 
-    <div class="group">
-        <h3>Coming Soon</h3>
-        <p>Your group here...</p>
+    <!-- Songs Section -->
+    <div class="songs">
+        <h2>Songs</h2>
+
+        <div class="song">
+            <p>Dream.exe</p>
+            <audio controls src="song1.mp3"></audio>
+            <a href="song1.mp3" download>Download</a>
+        </div>
+
     </div>
-</section>
 
-<section class="about">
-    <h2>About</h2>
-    <p>Neon Labs is a next-generation entertainment label where creativity meets AI technology.</p>
-</section>
+</div>
 
-<footer>
-    <p>© Neon Labs</p>
-</footer>
-
+<script src="script.js"></script>
 </body>
 </html>
